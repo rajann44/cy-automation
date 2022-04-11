@@ -9,6 +9,7 @@ This repo has cypress test and report generation
 Use the npm command to execute tests
 
 ```bash
+npm install
 npx cypress run
 ```
 
