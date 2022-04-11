@@ -8,7 +8,7 @@ describe ('Visit Popular Ecom', () => {
 
   it('Visits Flipkart', () => {
     cy.visit('https://flipkart.com')
-    expect(true).to.equal(false)
+    expect(true).to.equal(true)
   })
 })
 
