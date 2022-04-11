@@ -1,0 +1,11 @@
+{   
+    "video": false,
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+        "reportDir": "cypress/report",
+        "charts": true,
+        "reportPageTitle": "Automation Test Report",
+        "reportTitle": "Execution Result",
+        "showSkipped": true
+      }
+}
