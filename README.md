@@ -6,7 +6,7 @@ This repo has cypress test and report generation
 
 ## Installation
 
-Use the npm command to execute tests
+Use the npm command to execute tests.
 
 ```bash
 npm install
