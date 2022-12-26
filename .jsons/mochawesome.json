@@ -1,0 +1,167 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-12-26T12:09:44.951Z",
+    "end": "2022-12-26T12:10:44.196Z",
+    "duration": 59245,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ea6a3c32-c6a4-4f4d-9b47-e22fa877abcb",
+      "title": "",
+      "fullFile": "cypress/integration/ecom.spec.js",
+      "file": "cypress/integration/ecom.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "526a407e-2fad-4ad0-a9ed-44e5e6d86243",
+          "title": "Visit Popular Ecom",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Visits Amazon",
+              "fullTitle": "Visit Popular Ecom Visits Amazon",
+              "timedOut": null,
+              "duration": 6983,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://amazon.com');\nexpect(true).to.equal(true);",
+              "err": {},
+              "uuid": "ad61e23f-9b4c-4d1b-9943-cb61bb398f7b",
+              "parentUUID": "526a407e-2fad-4ad0-a9ed-44e5e6d86243",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Visits Flipkart",
+              "fullTitle": "Visit Popular Ecom Visits Flipkart",
+              "timedOut": null,
+              "duration": 5202,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://flipkart.com');\nexpect(true).to.equal(true);",
+              "err": {},
+              "uuid": "abb7f049-2bbd-4f8c-a9ac-f30294003baa",
+              "parentUUID": "526a407e-2fad-4ad0-a9ed-44e5e6d86243",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ad61e23f-9b4c-4d1b-9943-cb61bb398f7b",
+            "abb7f049-2bbd-4f8c-a9ac-f30294003baa"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 12185,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "23ff7619-a8ca-49b4-afd8-8a9ba8af08c5",
+          "title": "Visit Popular Fashion Site",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Visits Ajio",
+              "fullTitle": "Visit Popular Fashion Site Visits Ajio",
+              "timedOut": null,
+              "duration": 14199,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://ajio.com');\nexpect(true).to.equal(true);",
+              "err": {},
+              "uuid": "f5565ea2-ba2a-457e-a3f0-b735757b9452",
+              "parentUUID": "23ff7619-a8ca-49b4-afd8-8a9ba8af08c5",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f5565ea2-ba2a-457e-a3f0-b735757b9452"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 14199,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/report/.jsons",
+        "charts": true,
+        "reportPageTitle": "Automation Test Report",
+        "reportTitle": "Execution Result",
+        "showSkipped": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
